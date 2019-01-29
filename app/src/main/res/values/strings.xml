@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Bai2</string>
+    <string name="action_next">next</string>
+    <string name="input_fullname">Họ v Tên</string>
+    <string name="input_born">Quê quán</string>
+    <string name="input_birthday">Ngày sinh</string>
+    <string name="input_gender">Giới tính</string>
+    <string name="input_class">Lớp</string>
+    <string name="input_course">Khóa học</string>
 </resources>

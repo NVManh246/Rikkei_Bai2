@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/text_label_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="@dimen/dp_20"
+        android:text="@string/input_fullname"
+        android:textSize="@dimen/dp_20"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/text_label_born"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/text_label_fullname"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="@dimen/dp_20"
+        android:text="@string/input_born"
+        android:textSize="@dimen/dp_20"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/text_label_birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_label_born"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="@dimen/dp_20"
+        android:text="@string/input_birthday"
+        android:textSize="@dimen/dp_20"
+        android:textColor="@android:color/black"
+        />
+
+
+
+    <TextView
+        android:id="@+id/text_label_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_label_birthday"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="@dimen/dp_20"
+        android:text="@string/input_gender"
+        android:textSize="@dimen/dp_20"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/text_label_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_label_gender"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="@dimen/dp_20"
+        android:text="@string/input_class"
+        android:textSize="@dimen/dp_20"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/text_label_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/text_label_class"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="@dimen/dp_20"
+        android:text="@string/input_course"
+        android:textSize="@dimen/dp_20"
+        android:textColor="@android:color/black"
+        />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guide_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3"/>
+
+    <TextView
+        android:id="@+id/text_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/guide_line"
+        android:layout_margin="@dimen/dp_20"
+        android:textSize="@dimen/dp_20"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/text_born"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/text_fullname"
+        app:layout_constraintLeft_toRightOf="@+id/guide_line"
+        android:layout_margin="@dimen/dp_20"
+        android:textSize="@dimen/dp_20"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/text_birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/text_born"
+        app:layout_constraintLeft_toRightOf="@+id/guide_line"
+        android:layout_margin="@dimen/dp_20"
+        android:textSize="@dimen/dp_20"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/text_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/text_birthday"
+        app:layout_constraintLeft_toRightOf="@+id/guide_line"
+        android:layout_margin="@dimen/dp_20"
+        android:textSize="@dimen/dp_20"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/text_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/text_gender"
+        app:layout_constraintLeft_toRightOf="@+id/guide_line"
+        android:layout_margin="@dimen/dp_20"
+        android:textSize="@dimen/dp_20"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/text_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/text_class"
+        app:layout_constraintLeft_toRightOf="@+id/guide_line"
+        android:layout_margin="@dimen/dp_20"
+        android:textSize="@dimen/dp_20"
+        android:textColor="@android:color/black"
+        />
+
+</android.support.constraint.ConstraintLayout>
